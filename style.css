@@ -3,17 +3,47 @@
     font-weight: bold;
 }
 
-#startBtn{
+#startBtn {
     background-color: #50C878;
     width: 10em;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#startBtn:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
 }
 
 #stopBtn {
     background-color: #C70039;
     width: 10em;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#stopBtn:hover {
+    background-color: #a6002d;
+    transform: scale(1.05); 
 }
 
 #resetBtn {
     background-color: #A9A9A9;
     width: 10em;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#resetBtn:hover {
+    background-color: #8c8c8c; 
+    transform: scale(1.05); 
 }
